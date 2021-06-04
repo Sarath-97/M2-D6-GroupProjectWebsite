@@ -1,0 +1,172 @@
+body {
+    background-color: #0f171e;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* DROPDOWN RESETS */
+.dropdown-toggle {
+    color: #ffffffa6;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #252e39;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #f2f4f6e6;
+    padding: 14px 48px 14px 16px;
+    border-bottom: 1px solid #303c4a;
+}
+
+li:last-child .dropdown-item {
+    border: none;
+}
+
+.btn-group .dropdown-menu .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.bi-bell-fill,
+.bi-search {
+    color: white;
+}
+
+/* END OF DROPDOWN RESETS */
+
+/* navbar */
+.navbar {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+/*---------------Code for profile page ------------------------------*/
+
+.netflix-logo {
+    width: 100px;
+    height: 50px;
+  }
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo {
+    height: 8vw;
+    width: 8vw;
+    max-height: 180px;
+    max-width: 180px;
+    min-height: 80px;
+    min-width: 80px;
+    border-radius: 4px;
+}
+
+.name {
+    width: 13em;
+    height: 2em;
+    background: #666;
+    border: 1px solid transparent;
+    margin: 0 .7em 0 0;
+    padding: .2em .6em;
+    color: #fff;
+    font-size: 1.0vw;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: black;
+}
+
+hr {
+    color: white;
+}
+
+.maturity-container {
+    color: gray;
+}
+
+.maturity-rating {
+    width: 13em;
+    height: 2em;
+    background: #666;
+    border: 1px solid transparent;
+    margin: 0 .7em 0 0;
+    padding: .2em .6em;
+    color: #fff;
+    font-size: 1.0vw;
+    box-sizing: border-box;
+}
+
+.edit {
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.save {
+    margin: 1em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    padding: .4em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.cancel {
+    margin: 1em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .4em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.delete-profile {
+    margin: 1em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .4em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.netflix-font {
+    font-family: "Netflix Sans";
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format("woff");
+
+}
